@@ -137,6 +137,22 @@ public class FileService : IFileService
                             break;
 
                         }
+                        else
+                        {
+                            
+                            Console.WriteLine("Please type 'exit': ");
+                           
+                                string exitInput2 = Console.ReadLine();
+                                if (exitInput2.ToLower() == "exit")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Invalid input. Please type 'exit': ");
+                                }
+                                
+                        }
                     }
                 }
 
