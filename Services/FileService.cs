@@ -40,7 +40,7 @@ public class FileService : IFileService
         if (File.Exists(fileName))
         {
             _logger.Log(LogLevel.Information, "Reading");
-            Console.WriteLine("*** I am reading");
+            Console.WriteLine("*** I am reading from the Movie file");
 
             StreamReader sr = new StreamReader(fileName);
 
