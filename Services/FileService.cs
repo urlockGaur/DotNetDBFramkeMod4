@@ -134,7 +134,8 @@ public class FileService : IFileService
                         string exitInput = Console.ReadLine();
                         if (exitInput.ToLower() == "exit")
                         {  
-                            break; 
+                            break;
+
                         }
                     }
                 }
