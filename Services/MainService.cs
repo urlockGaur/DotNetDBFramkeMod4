@@ -18,6 +18,7 @@ public class MainService : IMainService
         do
         {
             Console.WriteLine("Movie Application Menu\n");
+            Console.WriteLine("Enter a choice: ");
             Console.WriteLine("1) Add Movie");
             Console.WriteLine("2) Display All Movies");
             Console.WriteLine("X) Quit");
