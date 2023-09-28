@@ -1,11 +1,11 @@
-﻿namespace ApplicationTemplate.Services;
+﻿using System.Collections.Generic;
 
-/// <summary>
-///     This service interface only exists an example.
-///     It can either be copied and modified, or deleted.
-/// </summary>
+namespace FramkeMod4MovieLibrary.Services;
+
 public interface IFileService
 {
-    void Read();
-    void Write();
+    void Read(string fileName);
+    void Write(string fileName);
+
+
 }
